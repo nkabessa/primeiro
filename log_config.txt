@@ -1,0 +1,46 @@
+C:\Users\iies0106\git_project>git init
+Initialized empty Git repository in C:/Users/iies0106/git_project/.git/
+
+C:\Users\iies0106\git_project>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\iies0106\git_project>git add .
+
+C:\Users\iies0106\git_project>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\iies0106\git_project>git commit -m "first commit"
+On branch master
+
+Initial commit
+
+nothing to commit
+
+C:\Users\iies0106\git_project>git remote add origin https://github.com/nkabessa/
+primeiro.git
+
+C:\Users\iies0106\git_project>git pull origin master
+fatal: unable to access 'https://github.com/nkabessa/primeiro.git/': Failed to c
+onnect to github.com port 443: Timed out
+
+C:\Users\iies0106\git_project>git config --global http.proxy http://172.26.210.15:80
+
+C:\Users\iies0106\git_project>git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/nkabessa/primeiro
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+
+
+
