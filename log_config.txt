@@ -40,6 +40,48 @@ Unpacking objects: 100% (3/3), done.
 From https://github.com/nkabessa/primeiro
  * branch            master     -> FETCH_HEAD
  * [new branch]      master     -> origin/master
+ 
+C:\Users\iies0106\git_project>git commit -m "the log"
+On branch master
+Untracked files:
+        log_config.txt
+
+nothing added to commit but untracked files present
+
+C:\Users\iies0106\git_project>git add --all
+
+C:\Users\iies0106\git_project>git commit -m "the log"
+[master 512d35d] the log
+ Committer: Nuno Cabeça <IIES0106@iies.seg-social.pt>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 46 insertions(+)
+ create mode 100644 log_config.txt
+
+Warning: Your console font probably doesn't support Unicode. If you experience s
+trange characters in the output, consider switching to a TrueType font such as C
+onsolas!
+
+C:\Users\iies0106\git_project>git config --global user.name "nkabessa"
+
+C:\Users\iies0106\git_project>git config --global user.email minhacorrida@gmail.
+com
+
+C:\Users\iies0106\git_project>git commit --amend --reset-author
+[master 1ff2a13] the log
+ 1 file changed, 46 insertions(+)
+ create mode 100644 log_config.txt
+
+C:\Users\iies0106\git_project>git commit -m "the log updated"
 
 
 
