@@ -87,6 +87,19 @@ C:\Users\userXXX\git_project>git commit --amend --reset-author
 
 C:\Users\userXXX\git_project>git commit -m "the log updated"
 
+C:\Users\userXXX\git_project>git push --set-upstream origin master
+Username for 'https://github.com': nkabessa
+Password for 'https://nkabessa@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 557 bytes | 557.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nkabessa/primeiro.git
+   65c9f58..94c7bff  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
 
 
 
