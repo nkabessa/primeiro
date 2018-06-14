@@ -1,0 +1,6 @@
+0. na pasta onde está o "repositório master" (criando via comando - git config remote.origin.url https://github.com/nkabessa/primeiro.git)
+1. alterar o ficheiro ou criar um novo
+2. guardar
+3. comando - git add --all
+4. comando - git commit -m "comentário"
+5. comando - git push --set-upstream origin master
